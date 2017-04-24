@@ -19,6 +19,7 @@
     "husky": "^0.13.3",
     "lint-staged": "^3.4.0",
     "prettier": "^1.2.2",
+    "virtual-dom": "^2.1.1",
     "webpack": "^2.4.1"
   },
   "lint-staged": {
