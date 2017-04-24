@@ -1,3 +1,3 @@
 export default function Chrome() {
-  return 'Chrome'
+  return 'Chrome';
 }
