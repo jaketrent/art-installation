@@ -1,0 +1,8 @@
+{
+  "paintings": [
+    { "id": 1, "title": "Reducks", "url": "http://i.imgur.com/vsKdQVh.jpg", "desc": "" },
+    { "id": 2, "title": "No One Ring For You", "url": "http://i.imgur.com/k629FhL.jpg", "desc": "" },
+    { "id": 3, "title": "Solitary Elm", "url": "http://i.imgur.com/VLYEPps.jpg", "desc": "" },
+    { "id": 4, "title": "The Color of Black", "url": "http://i.imgur.com/B05dYH0.jpg", "desc": "" }
+  ]
+}
