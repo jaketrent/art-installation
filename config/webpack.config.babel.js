@@ -1,12 +1,23 @@
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import path from 'path';
-import template from 'html-webpack-template';
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+import path from 'path'
+import template from 'html-webpack-template'
 
 export default {
-  entry: './src/index.js',
+  entry: ['babel-polyfill', 'whatwg-fetch', './src/index.js'],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, path.join('..', 'dist'))
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -17,4 +28,4 @@ export default {
       title: 'Art Installation'
     })
   ]
-};
+}

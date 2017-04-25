@@ -1,4 +1,4 @@
-import Chrome from './chrome'
+import Gallery from './gallery'
 import * as ui from './common/ui'
 
-ui.render(Chrome(), document.getElementById('app'))
+ui.render(Gallery(), document.getElementById('app'))
